@@ -15,7 +15,7 @@ constructor()
 }
 
   title = 'Ponseelan';
-  typeProperty='button';
+  typeProperty='text';
   Fruitcollections:any[]=[
   {'name':'ponseelan'},
   {'name':'ravi'},
