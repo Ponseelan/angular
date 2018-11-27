@@ -1,7 +1,6 @@
 import {Component} from '@angular/core';
 @Component(
     {
-        selector:'my-app',
-template:'Product'
+templateUrl:'./product.component.html'
     })
     export class ProductComponent{}

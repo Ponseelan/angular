@@ -2,6 +2,7 @@
 <div  style="text-align:center">
     Welcome to {{ title }}!
 </div>
+<router-outlet></router-outlet>
 <input [type]='typeProperty'/>
 <ul *ngFor='let fruit of Fruitcollections'>
   <li>
@@ -9,6 +10,6 @@
 </ul>
 <ul>
     <li><a [routerLink]="['/Product']">Product</a></li>
-    <li><a [routerLink]="['/Inventory']"></a></li>
+    <li><a [routerLink]="['/Inventory']">Inventory</a></li>
 </ul>
-<router-outlet></router-outlet>
+
